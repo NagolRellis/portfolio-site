@@ -1,2 +1,2 @@
-# 1st-Website
-1st website project I made for my coding bootcamp
+# Portfolio Site
+Portfolio site with some of my best projects and contact info.
