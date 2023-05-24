@@ -1,0 +1,59 @@
+
+
+/*this is a box that turns everything a very pale yellow, like aged paper, i used it to outline my entire page.*/
+.box {
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+/*changing the way the main header on my HTML page is viewed, colors, placement ect.*/
+
+header {
+	font-family: 'Quattrocento Sans', sans-serif; 
+	font-size: 30px;
+	padding: 50px 50px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+
+/*this is a box that has curved corners, I used it for my footer*/
+footer {
+  font-family: 'Quattrocento Sans', sans-serif; 
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  padding: 20px 0;
+}
+
+/*this puts a box around something to show it off if they have a classifciation of links, I used it for my links/contact info*/
+.links {
+  font-family: arial;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 20px;
+}
+
+
+/*this is here to put some space up and down between things on my site if they are classified as space, I used it to create some space between my contact info*/
+.space {
+  margin: 20px 10%;
+}
+
+/*this chooses the color my links if they sit there, have been visted before, a mouse is hovering over it, or someone is activley clicking it*/
+
+a:link    { color: rgb(115, 223, 240);  }
+a:visited { color: rgb(44, 91, 120);   }
+a:hover   { color: rgb(95, 253, 148); }
+a:active  { color: black;  }
+
+a.nohovername:hover {text-decoration: none; color: white;}
+
+a.nohover:hover {text-decoration: none; color: black;}
+
+a.navhyperlinks:link {text-decoration: none; color: white;}
+a.navhyperlinks:visited {text-decoration: none; color:white}
+a.navhyperlinks:hover {text-decoration: none; color: white;}
+a.navhyperlinks:active {text-decoration: none; color: white;}
